@@ -1,0 +1,21 @@
+{
+  "name": "cronmailer",
+  "version": "1.0.0",
+  "description": "cron mail sender",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ikechukwuapeh",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.6",
+    "bluebird": "^3.7.2",
+    "cron": "^1.8.2",
+    "csv-reader": "^1.0.7",
+    "dotenv": "^8.2.0",
+    "email-templates": "^2.7.1",
+    "handlebars": "^4.7.6"
+  }
+}
